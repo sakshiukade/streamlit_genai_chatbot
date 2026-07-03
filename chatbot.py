@@ -98,7 +98,7 @@ if user_prompt:
     import time
 
     with st.spinner("🤖 Thinking..."):
-        time.sleep(10)
+        time.sleep(5)
         response = llm.invoke(messages)
 
     assistant_response = response.content
